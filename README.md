@@ -1,5 +1,1 @@
-<p> หา </p>
-  ```cpp
-  void solution()
-  ```
-  <p>ให้เจอนะ :)</p>
+หา void solution ให้เจอนะ :)
