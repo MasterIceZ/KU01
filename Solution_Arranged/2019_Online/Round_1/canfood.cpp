@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-	int a, b, cnt = 0;
-	scanf("%d", q);
+	int a, b, cnt = 0, q;
+	scanf("%d", &q);
 	while(q--){
 		scanf("%d %d", &a, &b);
 		if(a > 400 || b < 150 || b > 200){

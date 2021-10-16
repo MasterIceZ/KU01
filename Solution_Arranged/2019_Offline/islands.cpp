@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	int n, k, x, sum = 0, cnt = 0;
 	bool ok = false;
-	scanf("%d", &n, &k);
+	scanf("%d %d", &n, &k);
 	vector<int> dp;
 	for(int i=1; i<=n; ++i){
 		scanf("%d", &x);
@@ -19,7 +19,7 @@ int main(){
 			cnt++;
 		}
 	}
-	dp.push_back(now);
+	dp.push_back(sum);
 	int res = 0;
 	sort(dp.begin(), dp.end());
 	for(int i=0; i<cnt - k; ++i){

@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	int n, m;
-	scang("%d %d", &n, &m);
+	scanf("%d %d", &n, &m);
 	vector<int> v(n);
 	for(auto &x: v){
 		scanf("%d", &x);

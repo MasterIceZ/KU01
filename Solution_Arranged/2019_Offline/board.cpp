@@ -18,6 +18,6 @@ int main(){
 			v[i][j] = max(v[i][j], v[i - 1][j]);
 		}
 	}
-	printf("%d\n", v);
+	printf("%d\n", n*m-cnt);
 	return 0;
 }

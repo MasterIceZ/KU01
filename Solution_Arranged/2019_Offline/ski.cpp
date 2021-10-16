@@ -18,7 +18,13 @@ int main(){
 				out = true;
 			}
 		}
-		printf("%d", out ? 0: 1);
+		if(out){
+			printf("0");
+		}
+		else{
+			printf("1");
+		}
+		printf("\n");
 	}
 	return 0;
 }

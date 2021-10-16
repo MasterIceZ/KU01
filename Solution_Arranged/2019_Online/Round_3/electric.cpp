@@ -3,10 +3,9 @@ using namespace std;
 
 int main(){
 	int n, q, ans = 1e9 + 10;
-	scanf("%d", &n, &q);
+	scanf("%d %d", &q, &n);
 	while(q--){
-		vector<int> v(n + 1);
-		int res = 0, last = 0;
+		int x, res = -1e9, last = 0;
 		for(int i=1; i<=n; ++i){
 			scanf("%d", &x);
 			res = max(x - last, res);
